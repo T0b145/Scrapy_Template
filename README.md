@@ -1,10 +1,10 @@
-#Scrapy Template
+# Scrapy Template
 Quickly deploy a spider.
 
 Just change the settings + spider file and you'r good to go.
 
 
-##Helpfull comands:
+## Helpfull comands:
 
 Run Crawler:
 scrapy crawl spider -L INFO -s JOBDIR=crawls/run_01
