@@ -38,7 +38,7 @@ class MongoPipeline(object):
     def from_crawler(cls, crawler):
         return cls(
             uri=crawler.settings.get('DB_URI'),
-            db=crawler.settings.get('DB_DATABASE', 'items')
+            db=crawler.settings.get('DB_DATABASE', 'items'),
             collection_name=crawler.settings.get('DB_TABLE_NAME')
         )
 
